@@ -1,0 +1,65 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<asmv1:assembly xsi:schemaLocation="urn:schemas-microsoft-com:asm.v1 assembly.adaptive.xsd" manifestVersion="1.0" xmlns:asmv1="urn:schemas-microsoft-com:asm.v1" xmlns="urn:schemas-microsoft-com:asm.v2" xmlns:asmv2="urn:schemas-microsoft-com:asm.v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:co.v1="urn:schemas-microsoft-com:clickonce.v1" xmlns:asmv3="urn:schemas-microsoft-com:asm.v3" xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" xmlns:co.v2="urn:schemas-microsoft-com:clickonce.v2">
+  <asmv1:assemblyIdentity name="SistemaAlmacén2025.exe" version="1.0.0.1" publicKeyToken="adcfca3aa0c2e79e" language="neutral" processorArchitecture="msil" type="win32" />
+  <application />
+  <entryPoint>
+    <assemblyIdentity name="SistemaAlmacén2025" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+    <commandLine file="SistemaAlmacén2025.exe" parameters="" />
+  </entryPoint>
+  <trustInfo>
+    <security>
+      <applicationRequestMinimum>
+        <PermissionSet Unrestricted="true" ID="Custom" SameSite="site" />
+        <defaultAssemblyRequest permissionSetReference="Custom" />
+      </applicationRequestMinimum>
+      <requestedPrivileges xmlns="urn:schemas-microsoft-com:asm.v3">
+        <!--
+          Opciones del manifiesto de Control de cuentas de usuario
+          Si quiere cambiar el nivel de Control de cuentas de usuario de Windows, reemplace el
+          nodo requestedExecutionLevel por alguno de los siguientes.
+
+        <requestedExecutionLevel  level="asInvoker" uiAccess="false" />
+        <requestedExecutionLevel  level="requireAdministrator" uiAccess="false" />
+        <requestedExecutionLevel  level="highestAvailable" uiAccess="false" />
+
+         Si desea usar la virtualización de archivos y del Registro para la
+         compatibilidad con versiones anteriores, elimine el nodo requestedExecutionLevel.
+    -->
+        <requestedExecutionLevel level="asInvoker" uiAccess="false" />
+      </requestedPrivileges>
+    </security>
+  </trustInfo>
+  <dependency>
+    <dependentOS>
+      <osVersionInfo>
+        <os majorVersion="5" minorVersion="1" buildNumber="2600" servicePackMajor="0" />
+      </osVersionInfo>
+    </dependentOS>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Microsoft.Windows.CommonLanguageRuntime" version="4.0.30319.0" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="SistemaAlmacén2025.exe" size="5613472">
+      <assemblyIdentity name="SistemaAlmacén2025" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>rLOtF5/pdgkmZGjMIScvdbaujpT4eHEfxEXyrM5mrtg=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <file name="SistemaAlmacén2025.exe.config" size="519">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>QIBMoFbZviynfVbXcUMM0kPi6ILYzR+b+aB5c64NO0o=</dsig:DigestValue>
+    </hash>
+  </file>
+<publisherIdentity name="CN=LENIN\USER" issuerKeyHash="1980d30144871dba8823e44ba0310b0e9506cf83" /><Signature Id="StrongNameSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>CVzwCXyNd72Rdx9MHHqiEzXE0osf9a4lY9Zx1gcrQMk=</DigestValue></Reference></SignedInfo><SignatureValue>UTNMUsFjPG1y7NZjdQm5jOXYjkng86F+QS+cNOi3KDwjn6E7z4ga3uQAaYE07jv857EiZdfhSNu1OGRbXdYuaKo0ssP65kVQD1Q4O4aSTTtqHou6Bp1uUuBvMf85qplv7bOo6vwbgX5JIsjgTQTxqIZJLGrofh2Ey9Tbe1rYKWQ=</SignatureValue><KeyInfo Id="StrongNameKeyInfo"><KeyValue><RSAKeyValue><Modulus>to2wqvTY5C+l8yY50pSFsLiFalZJSDIyoldxtioFUtPBjO+xVS/d+BRywCjonHyua2WVZSXhSS2sVViZxqi8wEh3txjxPWsQsGaOmyuTARBiGXjIOT/IGmqmIFVeTFjZVQ6HyZE66R9HpwRIMWrcbLg4OaIwLGSIepYRvrI15YE=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><msrel:RelData xmlns:msrel="http://schemas.microsoft.com/windows/rel/2005/reldata"><r:license xmlns:r="urn:mpeg:mpeg21:2003:01-REL-R-NS" xmlns:as="http://schemas.microsoft.com/windows/pki/2005/Authenticode"><r:grant><as:ManifestInformation Hash="c9402b07d671d66325aef51f8bd2c43513a27a1c4c1f7791bd778d7c09f05c09" Description="" Url=""><as:assemblyIdentity name="SistemaAlmacén2025.exe" version="1.0.0.1" publicKeyToken="adcfca3aa0c2e79e" language="neutral" processorArchitecture="msil" type="win32" /></as:ManifestInformation><as:SignedBy /><as:AuthenticodePublisher><as:X509SubjectName>CN=LENIN\USER</as:X509SubjectName></as:AuthenticodePublisher></r:grant><r:issuer><Signature Id="AuthenticodeSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>2X/xd/qRCR45D9MOAQzWIiVCvmat7QdzWs2bIpRNYGI=</DigestValue></Reference></SignedInfo><SignatureValue>KyefWnaKZQkcDQQ53OUvEfO/FxpZiCry5VJfO5VGARZWQvQm1iQmOS+qbUvfAym1oNVU0dZPz3AGnTQJAeZ1IhHY7r3IrdsAN3M72+mTTZTyYlz6vIhmtCcrMYIIYNdxBfQzDKosg69SRe3R/JvaHiKnn2ukzWjv7laSku4scAM=</SignatureValue><KeyInfo><KeyValue><RSAKeyValue><Modulus>to2wqvTY5C+l8yY50pSFsLiFalZJSDIyoldxtioFUtPBjO+xVS/d+BRywCjonHyua2WVZSXhSS2sVViZxqi8wEh3txjxPWsQsGaOmyuTARBiGXjIOT/IGmqmIFVeTFjZVQ6HyZE66R9HpwRIMWrcbLg4OaIwLGSIepYRvrI15YE=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><X509Data><X509Certificate>MIIBwTCCASqgAwIBAgIQcyOq3E+Sy7NHeURP/hkIeDANBgkqhkiG9w0BAQsFADAfMR0wGwYDVQQDHhQATABFAE4ASQBOAFwAVQBTAEUAUjAeFw0yNjEwMjMyMDA0NTBaFw0yNzEwMjQwMjA0NTBaMB8xHTAbBgNVBAMeFABMAEUATgBJAE4AXABVAFMARQBSMIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQC2jbCq9NjkL6XzJjnSlIWwuIVqVklIMjKiV3G2KgVS08GM77FVL934FHLAKOicfK5rZZVlJeFJLaxVWJnGqLzASHe3GPE9axCwZo6bK5MBEGIZeMg5P8gaaqYgVV5MWNlVDofJkTrpH0enBEgxatxsuDg5ojAsZIh6lhG+sjXlgQIDAQABMA0GCSqGSIb3DQEBCwUAA4GBADgZ4rScY+Tw7xfhO1ctHTU5T/bTykDG5yzvh7Fxf+HpOF9faptdTpCKsvj1D107Qhp9jfSroOaz9PwyfPFIfGADid93rRurKVlY6O/CzoRA0rwowTkYeV9tUbGBovzJpdXYxC0xN5D1fcu9WEm3Inq4BaHndwtslP8MrMYlB6c0</X509Certificate></X509Data></KeyInfo></Signature></r:issuer></r:license></msrel:RelData></KeyInfo></Signature></asmv1:assembly>
