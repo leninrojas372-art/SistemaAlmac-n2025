@@ -1,0 +1,518 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+SistemaAlmacén2025
+</name>
+</assembly>
+<members>
+<member name="T:SistemaAlmacén2025.My.Resources.Resources">
+<summary>
+  Clase de recurso fuertemente tipado, para buscar cadenas traducidas, etc.
+</summary>
+</member>
+<member name="P:SistemaAlmacén2025.My.Resources.Resources.ResourceManager">
+<summary>
+  Devuelve la instancia de ResourceManager almacenada en caché utilizada por esta clase.
+</summary>
+</member>
+<member name="P:SistemaAlmacén2025.My.Resources.Resources.Culture">
+<summary>
+  Reemplaza la propiedad CurrentUICulture del subproceso actual para todas las
+  búsquedas de recursos mediante esta clase de recurso fuertemente tipado.
+</summary>
+</member>
+<member name="P:SistemaAlmacén2025.My.Resources.Resources.Adobe_Express___file">
+<summary>
+  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:SistemaAlmacén2025.My.Resources.Resources.Adobe_Express___file1">
+<summary>
+  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="T:SistemaAlmacén2025.BD_Almacén2025DataSet">
+<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member>
+<member name="T:SistemaAlmacén2025.BD_Almacén2025DataSet.DetallePrestamoDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:SistemaAlmacén2025.BD_Almacén2025DataSet.DetalleSalidasDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:SistemaAlmacén2025.BD_Almacén2025DataSet.DevolucionesDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:SistemaAlmacén2025.BD_Almacén2025DataSet.MaterialDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:SistemaAlmacén2025.BD_Almacén2025DataSet.PersonalDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:SistemaAlmacén2025.BD_Almacén2025DataSet.PrestamoDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:SistemaAlmacén2025.BD_Almacén2025DataSet.SalidasDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:SistemaAlmacén2025.BD_Almacén2025DataSet.SolicitudDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:SistemaAlmacén2025.BD_Almacén2025DataSet.UsuariosDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:SistemaAlmacén2025.BD_Almacén2025DataSet.VistaConsulta_MaterialDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:SistemaAlmacén2025.BD_Almacén2025DataSet.VistaConsulta_SalidasDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:SistemaAlmacén2025.BD_Almacén2025DataSet.VistaConsulta_DevolucionesDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:SistemaAlmacén2025.BD_Almacén2025DataSet.DetallePrestamoRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:SistemaAlmacén2025.BD_Almacén2025DataSet.DetalleSalidasRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:SistemaAlmacén2025.BD_Almacén2025DataSet.DevolucionesRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:SistemaAlmacén2025.BD_Almacén2025DataSet.MaterialRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:SistemaAlmacén2025.BD_Almacén2025DataSet.PersonalRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:SistemaAlmacén2025.BD_Almacén2025DataSet.PrestamoRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:SistemaAlmacén2025.BD_Almacén2025DataSet.SalidasRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:SistemaAlmacén2025.BD_Almacén2025DataSet.SolicitudRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:SistemaAlmacén2025.BD_Almacén2025DataSet.UsuariosRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:SistemaAlmacén2025.BD_Almacén2025DataSet.VistaConsulta_MaterialRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:SistemaAlmacén2025.BD_Almacén2025DataSet.VistaConsulta_SalidasRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:SistemaAlmacén2025.BD_Almacén2025DataSet.VistaConsulta_DevolucionesRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:SistemaAlmacén2025.BD_Almacén2025DataSet.DetallePrestamoRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:SistemaAlmacén2025.BD_Almacén2025DataSet.DetalleSalidasRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:SistemaAlmacén2025.BD_Almacén2025DataSet.DevolucionesRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:SistemaAlmacén2025.BD_Almacén2025DataSet.MaterialRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:SistemaAlmacén2025.BD_Almacén2025DataSet.PersonalRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:SistemaAlmacén2025.BD_Almacén2025DataSet.PrestamoRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:SistemaAlmacén2025.BD_Almacén2025DataSet.SalidasRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:SistemaAlmacén2025.BD_Almacén2025DataSet.SolicitudRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:SistemaAlmacén2025.BD_Almacén2025DataSet.UsuariosRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:SistemaAlmacén2025.BD_Almacén2025DataSet.VistaConsulta_MaterialRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:SistemaAlmacén2025.BD_Almacén2025DataSet.VistaConsulta_SalidasRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:SistemaAlmacén2025.BD_Almacén2025DataSet.VistaConsulta_DevolucionesRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:SistemaAlmacén2025.BD_Almacén2025DataSetTableAdapters.DetallePrestamoTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:SistemaAlmacén2025.BD_Almacén2025DataSetTableAdapters.DetalleSalidasTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:SistemaAlmacén2025.BD_Almacén2025DataSetTableAdapters.DevolucionesTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:SistemaAlmacén2025.BD_Almacén2025DataSetTableAdapters.MaterialTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:SistemaAlmacén2025.BD_Almacén2025DataSetTableAdapters.PersonalTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:SistemaAlmacén2025.BD_Almacén2025DataSetTableAdapters.PrestamoTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:SistemaAlmacén2025.BD_Almacén2025DataSetTableAdapters.SalidasTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:SistemaAlmacén2025.BD_Almacén2025DataSetTableAdapters.SolicitudTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:SistemaAlmacén2025.BD_Almacén2025DataSetTableAdapters.UsuariosTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:SistemaAlmacén2025.BD_Almacén2025DataSetTableAdapters.VistaConsulta_MaterialTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:SistemaAlmacén2025.BD_Almacén2025DataSetTableAdapters.VistaConsulta_SalidasTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:SistemaAlmacén2025.BD_Almacén2025DataSetTableAdapters.VistaConsulta_DevolucionesTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:SistemaAlmacén2025.BD_Almacén2025DataSetTableAdapters.TableAdapterManager">
+<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member>
+<member name="M:SistemaAlmacén2025.BD_Almacén2025DataSetTableAdapters.TableAdapterManager.UpdateUpdatedRows(SistemaAlmacén2025.BD_Almacén2025DataSet,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Update rows in top-down order.
+</summary>
+</member>
+<member name="M:SistemaAlmacén2025.BD_Almacén2025DataSetTableAdapters.TableAdapterManager.UpdateInsertedRows(SistemaAlmacén2025.BD_Almacén2025DataSet,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Insert rows in top-down order.
+</summary>
+</member>
+<member name="M:SistemaAlmacén2025.BD_Almacén2025DataSetTableAdapters.TableAdapterManager.UpdateDeletedRows(SistemaAlmacén2025.BD_Almacén2025DataSet,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Delete rows in bottom-up order.
+</summary>
+</member>
+<member name="M:SistemaAlmacén2025.BD_Almacén2025DataSetTableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member>
+<member name="M:SistemaAlmacén2025.BD_Almacén2025DataSetTableAdapters.TableAdapterManager.UpdateAll(SistemaAlmacén2025.BD_Almacén2025DataSet)">
+<summary>
+Update all changes to the dataset.
+</summary>
+</member>
+<member name="T:SistemaAlmacén2025.BD_Almacén2025DataSetTableAdapters.TableAdapterManager.UpdateOrderOption">
+<summary>
+Update Order Option
+</summary>
+</member>
+<member name="T:SistemaAlmacén2025.BD_Almacén2025DataSetTableAdapters.TableAdapterManager.SelfReferenceComparer">
+<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member>
+<member name="T:SistemaAlmacén2025.BD_Almacén2025DataSet1">
+<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member>
+<member name="T:SistemaAlmacén2025.BD_Almacén2025DataSet1.VistaConsulta_MaterialDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:SistemaAlmacén2025.BD_Almacén2025DataSet1.VistaConsulta_MaterialRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:SistemaAlmacén2025.BD_Almacén2025DataSet1.VistaConsulta_MaterialRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:SistemaAlmacén2025.BD_Almacén2025DataSet1TableAdapters.VistaConsulta_MaterialTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:SistemaAlmacén2025.BD_Almacén2025DataSet1TableAdapters.TableAdapterManager">
+<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member>
+<member name="M:SistemaAlmacén2025.BD_Almacén2025DataSet1TableAdapters.TableAdapterManager.UpdateUpdatedRows(SistemaAlmacén2025.BD_Almacén2025DataSet1,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Update rows in top-down order.
+</summary>
+</member>
+<member name="M:SistemaAlmacén2025.BD_Almacén2025DataSet1TableAdapters.TableAdapterManager.UpdateInsertedRows(SistemaAlmacén2025.BD_Almacén2025DataSet1,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Insert rows in top-down order.
+</summary>
+</member>
+<member name="M:SistemaAlmacén2025.BD_Almacén2025DataSet1TableAdapters.TableAdapterManager.UpdateDeletedRows(SistemaAlmacén2025.BD_Almacén2025DataSet1,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Delete rows in bottom-up order.
+</summary>
+</member>
+<member name="M:SistemaAlmacén2025.BD_Almacén2025DataSet1TableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member>
+<member name="M:SistemaAlmacén2025.BD_Almacén2025DataSet1TableAdapters.TableAdapterManager.UpdateAll(SistemaAlmacén2025.BD_Almacén2025DataSet1)">
+<summary>
+Update all changes to the dataset.
+</summary>
+</member>
+<member name="T:SistemaAlmacén2025.BD_Almacén2025DataSet1TableAdapters.TableAdapterManager.UpdateOrderOption">
+<summary>
+Update Order Option
+</summary>
+</member>
+<member name="T:SistemaAlmacén2025.BD_Almacén2025DataSet1TableAdapters.TableAdapterManager.SelfReferenceComparer">
+<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member>
+<member name="T:SistemaAlmacén2025.ClsControl">
+ <summary>
+ Acceso a datos de los módulos Control, Consultas y Reportes.
+ Cada método llama a un procedimiento almacenado del script 01_ActualizarBD_ControlPrestamos.sql
+ Los errores se lanzan (Throw) para que el formulario decida cómo mostrarlos.
+ </summary>
+</member>
+<member name="T:SistemaAlmacén2025.ModSesion">
+ <summary>
+ Guarda los datos del personal que inició sesión.
+ Se usa para proponer automáticamente quién atiende un préstamo o una salida.
+ </summary>
+</member>
+<member name="T:SistemaAlmacén2025.ModUtilidades">
+ <summary>
+ Utilidades comunes para las grillas de Control, Consultas y Reportes.
+ </summary>
+</member>
+<member name="T:SistemaAlmacén2025.ClsItemDetalle">
+ <summary>
+ Un renglón del detalle de un préstamo o de una salida (material + cantidad).
+ </summary>
+</member>
+<member name="T:SistemaAlmacén2025.ClsImpresionGrid">
+ <summary>
+ Imprime cualquier DataGridView con vista previa (horizontal, con título,
+ fecha de impresión, número de página y cortes de página automáticos).
+ Uso:  ClsImpresionGrid.Imprimir(DataGridView1, "Préstamos pendientes", "Filtro: todos")
+ </summary>
+</member>
+<member name="T:SistemaAlmacén2025.FrmControl">
+ <summary>
+ 3. CONTROL
+   Pestaña 0: Materiales disponibles
+   Pestaña 1: Materiales prestados   -> "¿Quién tiene este material?"
+   Pestaña 2: Préstamos pendientes   -> "¿Quién todavía no ha devuelto?"
+   Pestaña 3: Devoluciones
+   Pestaña 4: Historial por usuario  -> "¿Qué materiales tiene/tuvo esta persona?"
+   Pestaña 5: Solicitudes pendientes -> pedidos que todavía no se atienden
+ </summary>
+</member>
+<member name="T:SistemaAlmacén2025.FrmConsulta_Usuario">
+ <summary>
+ 4. CONSULTAS > Buscar usuario
+ Responde: "¿Qué materiales tiene esta persona?" (pestaña "Materiales que tiene ahora")
+ y muestra todo su historial de préstamos y salidas.
+ </summary>
+</member>
+<member name="T:SistemaAlmacén2025.FrmConsulta_Prestamo">
+ <summary>
+ 4. CONSULTAS > Buscar préstamo
+ Busca por N° de préstamo, DNI, nombre del usuario o nombre de material,
+ con filtro de estado (Todos / Pendiente / Devuelto).
+ Buscando un material con estado "Pendiente" se responde: "¿Quién tiene este material?"
+ </summary>
+</member>
+<member name="T:SistemaAlmacén2025.FrmReporteListado">
+ <summary>
+ 5. REPORTES
+ Un solo formulario para los 5 reportes, con filtro por fechas,
+ vista previa de impresión, exportación a Excel y, en los reportes que ya
+ tenían diseño Crystal (Materiales, Devoluciones, Salidas), botón para verlos en Crystal.
+ </summary>
+</member>
+<member name="M:SistemaAlmacén2025.ClsPrestamo.RegistrarPrestamoCompleto(System.String,System.Int32,System.DateTime,System.Collections.Generic.List{SistemaAlmacén2025.ClsItemDetalle})">
+ <summary>
+ Registra el préstamo y todos sus materiales en UNA sola transacción.
+ Si algún material no tiene stock suficiente, la base de datos lanza un error,
+ se deshace todo (no queda un préstamo a medias) y el error llega al formulario.
+ Devuelve el N° del préstamo creado. Cada material se descuenta del stock.
+ </summary>
+</member>
+<member name="M:SistemaAlmacén2025.ClsSalida.RegistrarSalidaCompleta(System.String,System.Int32,System.DateTime,System.Collections.Generic.List{SistemaAlmacén2025.ClsItemDetalle})">
+ <summary>
+ Registra la salida definitiva y sus materiales en UNA transacción.
+ Cada material se descuenta del stock; si no alcanza, se deshace todo.
+ Devuelve el N° de salida creado.
+ </summary>
+</member>
+<member name="M:SistemaAlmacén2025.ClsSolicitud.RegistrarSolicitudCompleta(System.String,System.DateTime,System.Collections.Generic.List{SistemaAlmacén2025.ClsItemDetalle})">
+ <summary>
+ Registra la solicitud y los materiales pedidos en UNA transacción.
+ La solicitud queda en estado Pendiente. No descuenta stock (solo es un pedido).
+ Devuelve el N° de solicitud creado.
+ </summary>
+</member>
+<member name="M:SistemaAlmacén2025.ClsSolicitud.ActualizarSolicitudCompleta(System.Int32,System.String,System.DateTime,System.Collections.Generic.List{SistemaAlmacén2025.ClsItemDetalle})">
+ <summary>
+ Modifica una solicitud Pendiente: datos de cabecera y lista completa de materiales.
+ </summary>
+</member>
+<member name="T:SistemaAlmacén2025.FrmPrincipal">
+ <summary>
+ Menú principal organizado en 5 módulos:
+   1. Maestros     2. Operaciones     3. Control     4. Consultas     5. Reportes
+ </summary>
+</member>
+<member name="T:SistemaAlmacén2025.FrmDevoluciones">
+ <summary>
+ 2. OPERACIONES > Devolución
+ Registrar la devolución cambia el préstamo de "Pendiente" a "Devuelto"
+ y regresa al stock todos sus materiales (lo hace la base de datos en una transacción).
+ </summary>
+</member>
+<member name="T:SistemaAlmacén2025.FrmPrestamo">
+ <summary>
+ 2. OPERACIONES > Préstamo
+ Usuario → Solicitud → Préstamo. El préstamo queda en estado "Pendiente" y cada
+ material se descuenta del stock hasta que se registre la devolución.
+ </summary>
+</member>
+<member name="T:SistemaAlmacén2025.FrmSalidas">
+ <summary>
+ 2. OPERACIONES > Salida
+ Usuario/Área → Solicitud → Salida. Es una entrega definitiva:
+ se descuenta del stock y no se espera devolución.
+ </summary>
+</member>
+<member name="T:SistemaAlmacén2025.FrmSolicitud">
+ <summary>
+ 2. OPERACIONES > Solicitud de material
+ El usuario pide uno o varios materiales. La solicitud queda "Pendiente" hasta que
+ se atiende con un Préstamo o una Salida (entonces pasa a "Atendida").
+ La solicitud NO descuenta stock: solo registra el pedido.
+ </summary>
+</member>
+<member name="T:SistemaAlmacén2025.FrmBuscarPrestamoParaDevoluciones">
+ <summary>
+ Buscador para Devoluciones: muestra SOLO los préstamos pendientes,
+ con el usuario y los materiales que tiene.
+ </summary>
+</member>
+</members>
+</doc>

@@ -1,0 +1,317 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\Sistema_Mejorado\\SISTEMA_actualizado_v4\\SISTEMA\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{C3DA7B98-A4C0-41AF-A6F4-BD8894E837A4}|SistemaAlmac\u00E9n2025\\SistemaAlmac\u00E9n2025.vbproj|d:\\sistema_mejorado\\sistema_actualizado_v4\\sistema\\sistemaalmac\u00E9n2025\\consultas\\frmconsulta_prestamo.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form",
+      "RelativeMoniker": "D:0:0:{C3DA7B98-A4C0-41AF-A6F4-BD8894E837A4}|SistemaAlmac\u00E9n2025\\SistemaAlmac\u00E9n2025.vbproj|solutionrelative:sistemaalmac\u00E9n2025\\consultas\\frmconsulta_prestamo.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C3DA7B98-A4C0-41AF-A6F4-BD8894E837A4}|SistemaAlmac\u00E9n2025\\SistemaAlmac\u00E9n2025.vbproj|D:\\Sistema_Mejorado\\SISTEMA_actualizado_v4\\SISTEMA\\sistemaalmac\u00E9n2025\\consultas\\frmconsulta_material.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form",
+      "RelativeMoniker": "D:0:0:{C3DA7B98-A4C0-41AF-A6F4-BD8894E837A4}|SistemaAlmac\u00E9n2025\\SistemaAlmac\u00E9n2025.vbproj|solutionrelative:sistemaalmac\u00E9n2025\\consultas\\frmconsulta_material.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C3DA7B98-A4C0-41AF-A6F4-BD8894E837A4}|SistemaAlmac\u00E9n2025\\SistemaAlmac\u00E9n2025.vbproj|D:\\Sistema_Mejorado\\SISTEMA_actualizado_v4\\SISTEMA\\sistemaalmac\u00E9n2025\\consultas\\frmconsulta_devoluciones.designer.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}",
+      "RelativeMoniker": "D:0:0:{C3DA7B98-A4C0-41AF-A6F4-BD8894E837A4}|SistemaAlmac\u00E9n2025\\SistemaAlmac\u00E9n2025.vbproj|solutionrelative:sistemaalmac\u00E9n2025\\consultas\\frmconsulta_devoluciones.designer.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C3DA7B98-A4C0-41AF-A6F4-BD8894E837A4}|SistemaAlmac\u00E9n2025\\SistemaAlmac\u00E9n2025.vbproj|D:\\Sistema_Mejorado\\SISTEMA_actualizado_v4\\SISTEMA\\sistemaalmac\u00E9n2025\\consultas\\frmconsulta_devoluciones.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form",
+      "RelativeMoniker": "D:0:0:{C3DA7B98-A4C0-41AF-A6F4-BD8894E837A4}|SistemaAlmac\u00E9n2025\\SistemaAlmac\u00E9n2025.vbproj|solutionrelative:sistemaalmac\u00E9n2025\\consultas\\frmconsulta_devoluciones.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C3DA7B98-A4C0-41AF-A6F4-BD8894E837A4}|SistemaAlmac\u00E9n2025\\SistemaAlmac\u00E9n2025.vbproj|D:\\Sistema_Mejorado\\SISTEMA_actualizado_v4\\SISTEMA\\sistemaalmac\u00E9n2025\\frmprincipal.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form",
+      "RelativeMoniker": "D:0:0:{C3DA7B98-A4C0-41AF-A6F4-BD8894E837A4}|SistemaAlmac\u00E9n2025\\SistemaAlmac\u00E9n2025.vbproj|solutionrelative:sistemaalmac\u00E9n2025\\frmprincipal.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C3DA7B98-A4C0-41AF-A6F4-BD8894E837A4}|SistemaAlmac\u00E9n2025\\SistemaAlmac\u00E9n2025.vbproj|D:\\Sistema_Mejorado\\SISTEMA_actualizado_v4\\SISTEMA\\sistemaalmac\u00E9n2025\\my project\\frmsalidas.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}",
+      "RelativeMoniker": "D:0:0:{C3DA7B98-A4C0-41AF-A6F4-BD8894E837A4}|SistemaAlmac\u00E9n2025\\SistemaAlmac\u00E9n2025.vbproj|solutionrelative:sistemaalmac\u00E9n2025\\my project\\frmsalidas.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C3DA7B98-A4C0-41AF-A6F4-BD8894E837A4}|SistemaAlmac\u00E9n2025\\SistemaAlmac\u00E9n2025.vbproj|D:\\Sistema_Mejorado\\SISTEMA_actualizado_v4\\SISTEMA\\sistemaalmac\u00E9n2025\\my project\\frmsalidas.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form",
+      "RelativeMoniker": "D:0:0:{C3DA7B98-A4C0-41AF-A6F4-BD8894E837A4}|SistemaAlmac\u00E9n2025\\SistemaAlmac\u00E9n2025.vbproj|solutionrelative:sistemaalmac\u00E9n2025\\my project\\frmsalidas.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C3DA7B98-A4C0-41AF-A6F4-BD8894E837A4}|SistemaAlmac\u00E9n2025\\SistemaAlmac\u00E9n2025.vbproj|D:\\Sistema_Mejorado\\SISTEMA_actualizado_v4\\SISTEMA\\sistemaalmac\u00E9n2025\\my project\\frmdevoluciones.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form",
+      "RelativeMoniker": "D:0:0:{C3DA7B98-A4C0-41AF-A6F4-BD8894E837A4}|SistemaAlmac\u00E9n2025\\SistemaAlmac\u00E9n2025.vbproj|solutionrelative:sistemaalmac\u00E9n2025\\my project\\frmdevoluciones.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C3DA7B98-A4C0-41AF-A6F4-BD8894E837A4}|SistemaAlmac\u00E9n2025\\SistemaAlmac\u00E9n2025.vbproj|D:\\Sistema_Mejorado\\SISTEMA_actualizado_v4\\SISTEMA\\sistemaalmac\u00E9n2025\\my project\\frmdevoluciones.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}",
+      "RelativeMoniker": "D:0:0:{C3DA7B98-A4C0-41AF-A6F4-BD8894E837A4}|SistemaAlmac\u00E9n2025\\SistemaAlmac\u00E9n2025.vbproj|solutionrelative:sistemaalmac\u00E9n2025\\my project\\frmdevoluciones.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C3DA7B98-A4C0-41AF-A6F4-BD8894E837A4}|SistemaAlmac\u00E9n2025\\SistemaAlmac\u00E9n2025.vbproj|D:\\Sistema_Mejorado\\SISTEMA_actualizado_v4\\SISTEMA\\sistemaalmac\u00E9n2025\\my project\\frmsolicitud.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}",
+      "RelativeMoniker": "D:0:0:{C3DA7B98-A4C0-41AF-A6F4-BD8894E837A4}|SistemaAlmac\u00E9n2025\\SistemaAlmac\u00E9n2025.vbproj|solutionrelative:sistemaalmac\u00E9n2025\\my project\\frmsolicitud.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C3DA7B98-A4C0-41AF-A6F4-BD8894E837A4}|SistemaAlmac\u00E9n2025\\SistemaAlmac\u00E9n2025.vbproj|D:\\Sistema_Mejorado\\SISTEMA_actualizado_v4\\SISTEMA\\sistemaalmac\u00E9n2025\\my project\\frmsolicitud.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form",
+      "RelativeMoniker": "D:0:0:{C3DA7B98-A4C0-41AF-A6F4-BD8894E837A4}|SistemaAlmac\u00E9n2025\\SistemaAlmac\u00E9n2025.vbproj|solutionrelative:sistemaalmac\u00E9n2025\\my project\\frmsolicitud.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C3DA7B98-A4C0-41AF-A6F4-BD8894E837A4}|SistemaAlmac\u00E9n2025\\SistemaAlmac\u00E9n2025.vbproj|D:\\Sistema_Mejorado\\SISTEMA_actualizado_v4\\SISTEMA\\sistemaalmac\u00E9n2025\\my project\\frmpersonal.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}",
+      "RelativeMoniker": "D:0:0:{C3DA7B98-A4C0-41AF-A6F4-BD8894E837A4}|SistemaAlmac\u00E9n2025\\SistemaAlmac\u00E9n2025.vbproj|solutionrelative:sistemaalmac\u00E9n2025\\my project\\frmpersonal.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C3DA7B98-A4C0-41AF-A6F4-BD8894E837A4}|SistemaAlmac\u00E9n2025\\SistemaAlmac\u00E9n2025.vbproj|D:\\Sistema_Mejorado\\SISTEMA_actualizado_v4\\SISTEMA\\sistemaalmac\u00E9n2025\\my project\\frmmaterial.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}",
+      "RelativeMoniker": "D:0:0:{C3DA7B98-A4C0-41AF-A6F4-BD8894E837A4}|SistemaAlmac\u00E9n2025\\SistemaAlmac\u00E9n2025.vbproj|solutionrelative:sistemaalmac\u00E9n2025\\my project\\frmmaterial.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\USER\\AppData\\Local\\Temp\\.vsdbgsrc\\fe06f3a46cdb6ed01a12545fb24f592f048748425b10c4c3bdb1f451299e95a3\\Application.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C3DA7B98-A4C0-41AF-A6F4-BD8894E837A4}|SistemaAlmac\u00E9n2025\\SistemaAlmac\u00E9n2025.vbproj|D:\\Sistema_Mejorado\\SISTEMA_actualizado_v4\\SISTEMA\\sistemaalmac\u00E9n2025\\my project\\frmprestamo.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form",
+      "RelativeMoniker": "D:0:0:{C3DA7B98-A4C0-41AF-A6F4-BD8894E837A4}|SistemaAlmac\u00E9n2025\\SistemaAlmac\u00E9n2025.vbproj|solutionrelative:sistemaalmac\u00E9n2025\\my project\\frmprestamo.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C3DA7B98-A4C0-41AF-A6F4-BD8894E837A4}|SistemaAlmac\u00E9n2025\\SistemaAlmac\u00E9n2025.vbproj|D:\\Sistema_Mejorado\\SISTEMA_actualizado_v4\\SISTEMA\\sistemaalmac\u00E9n2025\\my project\\frmmaterial.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form",
+      "RelativeMoniker": "D:0:0:{C3DA7B98-A4C0-41AF-A6F4-BD8894E837A4}|SistemaAlmac\u00E9n2025\\SistemaAlmac\u00E9n2025.vbproj|solutionrelative:sistemaalmac\u00E9n2025\\my project\\frmmaterial.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C3DA7B98-A4C0-41AF-A6F4-BD8894E837A4}|SistemaAlmac\u00E9n2025\\SistemaAlmac\u00E9n2025.vbproj|D:\\Sistema_Mejorado\\SISTEMA_actualizado_v4\\SISTEMA\\sistemaalmac\u00E9n2025\\my project\\frmpersonal.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form",
+      "RelativeMoniker": "D:0:0:{C3DA7B98-A4C0-41AF-A6F4-BD8894E837A4}|SistemaAlmac\u00E9n2025\\SistemaAlmac\u00E9n2025.vbproj|solutionrelative:sistemaalmac\u00E9n2025\\my project\\frmpersonal.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 9,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{75188d03-9892-4ae2-abf1-207126247ce5}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{b1e99781-ab81-11d0-b683-00aa00a3ee26}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:129:0:{75188d03-9892-4ae2-abf1-207126247ce5}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:130:0:{75188d03-9892-4ae2-abf1-207126247ce5}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{40ea2e6b-2121-4bb8-a43e-c83c04b51041}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "FrmConsulta_Prestamo.vb [Dise\u00F1o]",
+              "DocumentMoniker": "D:\\Sistema_Mejorado\\SISTEMA_actualizado_v4\\SISTEMA\\SistemaAlmac\u00E9n2025\\Consultas\\FrmConsulta_Prestamo.vb",
+              "RelativeDocumentMoniker": "SistemaAlmac\u00E9n2025\\Consultas\\FrmConsulta_Prestamo.vb",
+              "ToolTip": "D:\\Sistema_Mejorado\\SISTEMA_actualizado_v4\\SISTEMA\\SistemaAlmac\u00E9n2025\\Consultas\\FrmConsulta_Prestamo.vb [Dise\u00F1o]",
+              "RelativeToolTip": "SistemaAlmac\u00E9n2025\\Consultas\\FrmConsulta_Prestamo.vb [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
+              "WhenOpened": "2026-10-21T14:56:19.018Z",
+              "EditorCaption": " [Dise\u00F1o]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "FrmConsulta_Material.vb [Dise\u00F1o]",
+              "DocumentMoniker": "D:\\Sistema_Mejorado\\SISTEMA_actualizado_v4\\SISTEMA\\SistemaAlmac\u00E9n2025\\Consultas\\FrmConsulta_Material.vb",
+              "RelativeDocumentMoniker": "SistemaAlmac\u00E9n2025\\Consultas\\FrmConsulta_Material.vb",
+              "ToolTip": "D:\\Sistema_Mejorado\\SISTEMA_actualizado_v4\\SISTEMA\\SistemaAlmac\u00E9n2025\\Consultas\\FrmConsulta_Material.vb [Dise\u00F1o]",
+              "RelativeToolTip": "SistemaAlmac\u00E9n2025\\Consultas\\FrmConsulta_Material.vb [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
+              "WhenOpened": "2026-10-21T14:56:16.626Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "FrmConsulta_Devoluciones.Designer.vb",
+              "DocumentMoniker": "D:\\Sistema_Mejorado\\SISTEMA_actualizado_v4\\SISTEMA\\SistemaAlmac\u00E9n2025\\Consultas\\FrmConsulta_Devoluciones.Designer.vb",
+              "RelativeDocumentMoniker": "SistemaAlmac\u00E9n2025\\Consultas\\FrmConsulta_Devoluciones.Designer.vb",
+              "ToolTip": "D:\\Sistema_Mejorado\\SISTEMA_actualizado_v4\\SISTEMA\\SistemaAlmac\u00E9n2025\\Consultas\\FrmConsulta_Devoluciones.Designer.vb",
+              "RelativeToolTip": "SistemaAlmac\u00E9n2025\\Consultas\\FrmConsulta_Devoluciones.Designer.vb",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
+              "WhenOpened": "2026-10-21T14:56:12.93Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "FrmConsulta_Devoluciones.vb [Dise\u00F1o]",
+              "DocumentMoniker": "D:\\Sistema_Mejorado\\SISTEMA_actualizado_v4\\SISTEMA\\SistemaAlmac\u00E9n2025\\Consultas\\FrmConsulta_Devoluciones.vb",
+              "RelativeDocumentMoniker": "SistemaAlmac\u00E9n2025\\Consultas\\FrmConsulta_Devoluciones.vb",
+              "ToolTip": "D:\\Sistema_Mejorado\\SISTEMA_actualizado_v4\\SISTEMA\\SistemaAlmac\u00E9n2025\\Consultas\\FrmConsulta_Devoluciones.vb [Dise\u00F1o]",
+              "RelativeToolTip": "SistemaAlmac\u00E9n2025\\Consultas\\FrmConsulta_Devoluciones.vb [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
+              "WhenOpened": "2026-10-21T14:56:11.067Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "FrmPrincipal.vb [Dise\u00F1o]",
+              "DocumentMoniker": "D:\\Sistema_Mejorado\\SISTEMA_actualizado_v4\\SISTEMA\\SistemaAlmac\u00E9n2025\\FrmPrincipal.vb",
+              "RelativeDocumentMoniker": "SistemaAlmac\u00E9n2025\\FrmPrincipal.vb",
+              "ToolTip": "D:\\Sistema_Mejorado\\SISTEMA_actualizado_v4\\SISTEMA\\SistemaAlmac\u00E9n2025\\FrmPrincipal.vb [Dise\u00F1o]",
+              "RelativeToolTip": "SistemaAlmac\u00E9n2025\\FrmPrincipal.vb [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
+              "WhenOpened": "2026-10-19T01:05:54.416Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "FrmSalidas.vb",
+              "DocumentMoniker": "D:\\Sistema_Mejorado\\SISTEMA_actualizado_v4\\SISTEMA\\SistemaAlmac\u00E9n2025\\My Project\\FrmSalidas.vb",
+              "RelativeDocumentMoniker": "SistemaAlmac\u00E9n2025\\My Project\\FrmSalidas.vb",
+              "ToolTip": "D:\\Sistema_Mejorado\\SISTEMA_actualizado_v4\\SISTEMA\\SistemaAlmac\u00E9n2025\\My Project\\FrmSalidas.vb",
+              "RelativeToolTip": "SistemaAlmac\u00E9n2025\\My Project\\FrmSalidas.vb",
+              "ViewState": "AgIAANEAAAAAAAAAAAAcwPEAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
+              "WhenOpened": "2026-10-19T00:48:03.802Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "FrmSalidas.vb [Dise\u00F1o]",
+              "DocumentMoniker": "D:\\Sistema_Mejorado\\SISTEMA_actualizado_v4\\SISTEMA\\SistemaAlmac\u00E9n2025\\My Project\\FrmSalidas.vb",
+              "RelativeDocumentMoniker": "SistemaAlmac\u00E9n2025\\My Project\\FrmSalidas.vb",
+              "ToolTip": "D:\\Sistema_Mejorado\\SISTEMA_actualizado_v4\\SISTEMA\\SistemaAlmac\u00E9n2025\\My Project\\FrmSalidas.vb [Dise\u00F1o]",
+              "RelativeToolTip": "SistemaAlmac\u00E9n2025\\My Project\\FrmSalidas.vb [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
+              "WhenOpened": "2026-10-19T00:47:58.022Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "FrmSolicitud.vb",
+              "DocumentMoniker": "D:\\Sistema_Mejorado\\SISTEMA_actualizado_v4\\SISTEMA\\SistemaAlmac\u00E9n2025\\My Project\\FrmSolicitud.vb",
+              "RelativeDocumentMoniker": "SistemaAlmac\u00E9n2025\\My Project\\FrmSolicitud.vb",
+              "ToolTip": "D:\\Sistema_Mejorado\\SISTEMA_actualizado_v4\\SISTEMA\\SistemaAlmac\u00E9n2025\\My Project\\FrmSolicitud.vb",
+              "RelativeToolTip": "SistemaAlmac\u00E9n2025\\My Project\\FrmSolicitud.vb",
+              "ViewState": "AgIAALYAAAAAAAAAAAApwMkAAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
+              "WhenOpened": "2026-10-15T03:43:42.72Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "FrmSolicitud.vb [Dise\u00F1o]",
+              "DocumentMoniker": "D:\\Sistema_Mejorado\\SISTEMA_actualizado_v4\\SISTEMA\\SistemaAlmac\u00E9n2025\\My Project\\FrmSolicitud.vb",
+              "RelativeDocumentMoniker": "SistemaAlmac\u00E9n2025\\My Project\\FrmSolicitud.vb",
+              "ToolTip": "D:\\Sistema_Mejorado\\SISTEMA_actualizado_v4\\SISTEMA\\SistemaAlmac\u00E9n2025\\My Project\\FrmSolicitud.vb [Dise\u00F1o]",
+              "RelativeToolTip": "SistemaAlmac\u00E9n2025\\My Project\\FrmSolicitud.vb [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
+              "WhenOpened": "2026-10-15T03:43:17.6Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "FrmDevoluciones.vb",
+              "DocumentMoniker": "D:\\Sistema_Mejorado\\SISTEMA_actualizado_v4\\SISTEMA\\SistemaAlmac\u00E9n2025\\My Project\\FrmDevoluciones.vb",
+              "RelativeDocumentMoniker": "SistemaAlmac\u00E9n2025\\My Project\\FrmDevoluciones.vb",
+              "ToolTip": "D:\\Sistema_Mejorado\\SISTEMA_actualizado_v4\\SISTEMA\\SistemaAlmac\u00E9n2025\\My Project\\FrmDevoluciones.vb",
+              "RelativeToolTip": "SistemaAlmac\u00E9n2025\\My Project\\FrmDevoluciones.vb",
+              "ViewState": "AgIAAHIAAAAAAAAAAAApwIYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
+              "WhenOpened": "2026-10-15T03:41:09.315Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "FrmDevoluciones.vb [Dise\u00F1o]",
+              "DocumentMoniker": "D:\\Sistema_Mejorado\\SISTEMA_actualizado_v4\\SISTEMA\\SistemaAlmac\u00E9n2025\\My Project\\FrmDevoluciones.vb",
+              "RelativeDocumentMoniker": "SistemaAlmac\u00E9n2025\\My Project\\FrmDevoluciones.vb",
+              "ToolTip": "D:\\Sistema_Mejorado\\SISTEMA_actualizado_v4\\SISTEMA\\SistemaAlmac\u00E9n2025\\My Project\\FrmDevoluciones.vb [Dise\u00F1o]",
+              "RelativeToolTip": "SistemaAlmac\u00E9n2025\\My Project\\FrmDevoluciones.vb [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
+              "WhenOpened": "2026-10-15T03:40:55.883Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "Application.cs",
+              "DocumentMoniker": "C:\\Users\\USER\\AppData\\Local\\Temp\\.vsdbgsrc\\fe06f3a46cdb6ed01a12545fb24f592f048748425b10c4c3bdb1f451299e95a3\\Application.cs",
+              "ToolTip": "C:\\Users\\USER\\AppData\\Local\\Temp\\.vsdbgsrc\\fe06f3a46cdb6ed01a12545fb24f592f048748425b10c4c3bdb1f451299e95a3\\Application.cs [Solo lectura]",
+              "ViewState": "AgIAAB8BAAAAAAAAAAAkwDABAAAIAAAAAQAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-15T03:34:28.872Z",
+              "EditorCaption": " [Solo lectura]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "FrmPrestamo.vb [Dise\u00F1o]",
+              "DocumentMoniker": "D:\\Sistema_Mejorado\\SISTEMA_actualizado_v4\\SISTEMA\\SistemaAlmac\u00E9n2025\\My Project\\FrmPrestamo.vb",
+              "RelativeDocumentMoniker": "SistemaAlmac\u00E9n2025\\My Project\\FrmPrestamo.vb",
+              "ToolTip": "D:\\Sistema_Mejorado\\SISTEMA_actualizado_v4\\SISTEMA\\SistemaAlmac\u00E9n2025\\My Project\\FrmPrestamo.vb [Dise\u00F1o]",
+              "RelativeToolTip": "SistemaAlmac\u00E9n2025\\My Project\\FrmPrestamo.vb [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
+              "WhenOpened": "2026-10-15T03:33:04.393Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "FrmPersonal.vb",
+              "DocumentMoniker": "D:\\Sistema_Mejorado\\SISTEMA_actualizado_v4\\SISTEMA\\SistemaAlmac\u00E9n2025\\My Project\\FrmPersonal.vb",
+              "RelativeDocumentMoniker": "SistemaAlmac\u00E9n2025\\My Project\\FrmPersonal.vb",
+              "ToolTip": "D:\\Sistema_Mejorado\\SISTEMA_actualizado_v4\\SISTEMA\\SistemaAlmac\u00E9n2025\\My Project\\FrmPersonal.vb",
+              "RelativeToolTip": "SistemaAlmac\u00E9n2025\\My Project\\FrmPersonal.vb",
+              "ViewState": "AgIAAEcAAAAAAAAAAAAUwFEAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
+              "WhenOpened": "2026-10-15T03:32:28.405Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "FrmPersonal.vb [Dise\u00F1o]",
+              "DocumentMoniker": "D:\\Sistema_Mejorado\\SISTEMA_actualizado_v4\\SISTEMA\\SistemaAlmac\u00E9n2025\\My Project\\FrmPersonal.vb",
+              "RelativeDocumentMoniker": "SistemaAlmac\u00E9n2025\\My Project\\FrmPersonal.vb",
+              "ToolTip": "D:\\Sistema_Mejorado\\SISTEMA_actualizado_v4\\SISTEMA\\SistemaAlmac\u00E9n2025\\My Project\\FrmPersonal.vb [Dise\u00F1o]",
+              "RelativeToolTip": "SistemaAlmac\u00E9n2025\\My Project\\FrmPersonal.vb [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
+              "WhenOpened": "2026-10-15T03:32:24.842Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "FrmMaterial.vb",
+              "DocumentMoniker": "D:\\Sistema_Mejorado\\SISTEMA_actualizado_v4\\SISTEMA\\SistemaAlmac\u00E9n2025\\My Project\\FrmMaterial.vb",
+              "RelativeDocumentMoniker": "SistemaAlmac\u00E9n2025\\My Project\\FrmMaterial.vb",
+              "ToolTip": "D:\\Sistema_Mejorado\\SISTEMA_actualizado_v4\\SISTEMA\\SistemaAlmac\u00E9n2025\\My Project\\FrmMaterial.vb",
+              "RelativeToolTip": "SistemaAlmac\u00E9n2025\\My Project\\FrmMaterial.vb",
+              "ViewState": "AgIAAGIAAAAAAAAAAAAzwHkAAAALAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
+              "WhenOpened": "2026-10-15T03:31:56.138Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "FrmMaterial.vb [Dise\u00F1o]",
+              "DocumentMoniker": "D:\\Sistema_Mejorado\\SISTEMA_actualizado_v4\\SISTEMA\\SistemaAlmac\u00E9n2025\\My Project\\FrmMaterial.vb",
+              "RelativeDocumentMoniker": "SistemaAlmac\u00E9n2025\\My Project\\FrmMaterial.vb",
+              "ToolTip": "D:\\Sistema_Mejorado\\SISTEMA_actualizado_v4\\SISTEMA\\SistemaAlmac\u00E9n2025\\My Project\\FrmMaterial.vb [Dise\u00F1o]",
+              "RelativeToolTip": "SistemaAlmac\u00E9n2025\\My Project\\FrmMaterial.vb [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
+              "WhenOpened": "2026-10-15T03:31:26.898Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

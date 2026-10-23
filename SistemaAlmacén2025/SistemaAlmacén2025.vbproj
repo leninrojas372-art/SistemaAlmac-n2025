@@ -1,0 +1,465 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{C3DA7B98-A4C0-41AF-A6F4-BD8894E837A4}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <StartupObject>SistemaAlmacén2025.FrmBienvenida</StartupObject>
+    <RootNamespace>SistemaAlmacén2025</RootNamespace>
+    <AssemblyName>SistemaAlmacén2025</AssemblyName>
+    <FileAlignment>512</FileAlignment>
+    <MyType>WindowsForms</MyType>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+    <PublishUrl>publish\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <DefineDebug>true</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DocumentationFile>SistemaAlmacén2025.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <DefineDebug>false</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DocumentationFile>SistemaAlmacén2025.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionExplicit>On</OptionExplicit>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionCompare>Binary</OptionCompare>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionStrict>Off</OptionStrict>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionInfer>On</OptionInfer>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="CrystalDecisions.CrystalReports.Engine, Version=13.0.4000.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=MSIL" />
+    <Reference Include="CrystalDecisions.ReportSource, Version=13.0.4000.0, Culture=neutral, PublicKeyToken=692fbea5521e1304" />
+    <Reference Include="CrystalDecisions.Shared, Version=13.0.4000.0, Culture=neutral, PublicKeyToken=692fbea5521e1304" />
+    <Reference Include="CrystalDecisions.Windows.Forms, Version=13.0.4000.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=MSIL" />
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Net.Http" />
+  </ItemGroup>
+  <ItemGroup>
+    <Import Include="Microsoft.VisualBasic" />
+    <Import Include="System" />
+    <Import Include="System.Collections" />
+    <Import Include="System.Collections.Generic" />
+    <Import Include="System.Data" />
+    <Import Include="System.Drawing" />
+    <Import Include="System.Diagnostics" />
+    <Import Include="System.Windows.Forms" />
+    <Import Include="System.Linq" />
+    <Import Include="System.Xml.Linq" />
+    <Import Include="System.Threading.Tasks" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="BD_Almacén2025DataSet.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>BD_Almacén2025DataSet.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="BD_Almacén2025DataSet1.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>BD_Almacén2025DataSet1.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Conexion\ClsConexion.vb" />
+    <Compile Include="Control\ClsControl.vb" />
+    <Compile Include="Control\ModSesion.vb" />
+    <Compile Include="Control\ModUtilidades.vb" />
+    <Compile Include="CRUD\Clases\ClsItemDetalle.vb" />
+    <Compile Include="Reportes\ClsImpresionGrid.vb" />
+    <Compile Include="Control\FrmControl.Designer.vb">
+      <DependentUpon>FrmControl.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Control\FrmControl.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Consultas\FrmConsulta_Usuario.Designer.vb">
+      <DependentUpon>FrmConsulta_Usuario.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Consultas\FrmConsulta_Usuario.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Consultas\FrmConsulta_Prestamo.Designer.vb">
+      <DependentUpon>FrmConsulta_Prestamo.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Consultas\FrmConsulta_Prestamo.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Reportes\FrmReporteListado.Designer.vb">
+      <DependentUpon>FrmReporteListado.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Reportes\FrmReporteListado.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Consultas\ClsConsultas.vb" />
+    <Compile Include="Consultas\FrmConsulta_Devoluciones.Designer.vb">
+      <DependentUpon>FrmConsulta_Devoluciones.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Consultas\FrmConsulta_Devoluciones.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Consultas\FrmConsulta_Material.Designer.vb">
+      <DependentUpon>FrmConsulta_Material.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Consultas\FrmConsulta_Material.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Consultas\FrmConsulta_Salidas.Designer.vb">
+      <DependentUpon>FrmConsulta_Salidas.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Consultas\FrmConsulta_Salidas.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CRUD\Clases\ClsDevoluciones.vb" />
+    <Compile Include="CRUD\Clases\Clsmaterial.vb" />
+    <Compile Include="CRUD\Clases\ClsPersonal.vb" />
+    <Compile Include="CRUD\Clases\ClsPrestamo.vb" />
+    <Compile Include="CRUD\Clases\ClsSalida.vb" />
+    <Compile Include="CRUD\Clases\ClsSolicitud.vb" />
+    <Compile Include="CRUD\Clases\ClsUsuarios.vb" />
+    <Compile Include="FrmAcceso.Designer.vb">
+      <DependentUpon>FrmAcceso.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FrmAcceso.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmBienvenida.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmBienvenida.Designer.vb">
+      <DependentUpon>FrmBienvenida.vb</DependentUpon>
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmPrincipal.Designer.vb">
+      <DependentUpon>FrmPrincipal.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FrmPrincipal.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="My Project\AssemblyInfo.vb" />
+    <Compile Include="My Project\FrmDevoluciones.Designer.vb">
+      <DependentUpon>FrmDevoluciones.vb</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\FrmDevoluciones.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="My Project\FrmMaterial.Designer.vb">
+      <DependentUpon>FrmMaterial.vb</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\FrmMaterial.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="My Project\FrmPersonal.Designer.vb">
+      <DependentUpon>FrmPersonal.vb</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\FrmPersonal.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="My Project\FrmPrestamo.Designer.vb">
+      <DependentUpon>FrmPrestamo.vb</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\FrmPrestamo.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="My Project\FrmSalidas.Designer.vb">
+      <DependentUpon>FrmSalidas.vb</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\FrmSalidas.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="My Project\FrmSolicitud.Designer.vb">
+      <DependentUpon>FrmSolicitud.vb</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\FrmSolicitud.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="My Project\FrmUsuario.Designer.vb">
+      <DependentUpon>FrmUsuario.vb</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\FrmUsuario.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="My Project\Resources.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Settings.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <Compile Include="Procesos\Devoluciones\FrmBuscarPrestamoParaDevoluciones.Designer.vb">
+      <DependentUpon>FrmBuscarPrestamoParaDevoluciones.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Procesos\Devoluciones\FrmBuscarPrestamoParaDevoluciones.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Procesos\Prestamos\FrmBuscarMaterialParaPrestamo.Designer.vb">
+      <DependentUpon>FrmBuscarMaterialParaPrestamo.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Procesos\Prestamos\FrmBuscarMaterialParaPrestamo.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Procesos\Prestamos\FrmBuscarPersonalParaPrestamo.Designer.vb">
+      <DependentUpon>FrmBuscarPersonalParaPrestamo.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Procesos\Prestamos\FrmBuscarPersonalParaPrestamo.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Procesos\Prestamos\FrmBuscarSolicitudParaPrestamo.Designer.vb">
+      <DependentUpon>FrmBuscarSolicitudParaPrestamo.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Procesos\Prestamos\FrmBuscarSolicitudParaPrestamo.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Procesos\Salidas\FrmBuscarMaterialParaSalida.Designer.vb">
+      <DependentUpon>FrmBuscarMaterialParaSalida.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Procesos\Salidas\FrmBuscarMaterialParaSalida.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Procesos\Salidas\FrmBuscarPersonalParaSalida.Designer.vb">
+      <DependentUpon>FrmBuscarPersonalParaSalida.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Procesos\Salidas\FrmBuscarPersonalParaSalida.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Procesos\Salidas\FrmBuscarSolicitudParaSalida.Designer.vb">
+      <DependentUpon>FrmBuscarSolicitudParaSalida.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Procesos\Salidas\FrmBuscarSolicitudParaSalida.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Procesos\Solicitud\FrmBuscarUsuarioParaSolicutud1.Designer.vb">
+      <DependentUpon>FrmBuscarUsuarioParaSolicutud1.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Procesos\Solicitud\FrmBuscarUsuarioParaSolicutud1.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Reportes\ClsReportes.vb" />
+    <Compile Include="Reportes\CrDevolucionesrpt.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>CrDevolucionesrpt.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Reportes\CrMateriales.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>CrMateriales.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Reportes\CrSalidas.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>CrSalidas.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Reportes\FrmReportes.Designer.vb">
+      <DependentUpon>FrmReportes.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Reportes\FrmReportes.vb">
+      <SubType>Form</SubType>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Consultas\FrmConsulta_Devoluciones.resx">
+      <DependentUpon>FrmConsulta_Devoluciones.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Consultas\FrmConsulta_Material.resx">
+      <DependentUpon>FrmConsulta_Material.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Consultas\FrmConsulta_Prestamo.resx">
+      <DependentUpon>FrmConsulta_Prestamo.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Consultas\FrmConsulta_Salidas.resx">
+      <DependentUpon>FrmConsulta_Salidas.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Consultas\FrmConsulta_Usuario.resx">
+      <DependentUpon>FrmConsulta_Usuario.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Control\FrmControl.resx">
+      <DependentUpon>FrmControl.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmAcceso.resx">
+      <DependentUpon>FrmAcceso.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmBienvenida.resx">
+      <DependentUpon>FrmBienvenida.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmPrincipal.resx">
+      <DependentUpon>FrmPrincipal.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="My Project\FrmDevoluciones.resx">
+      <DependentUpon>FrmDevoluciones.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="My Project\FrmMaterial.resx">
+      <DependentUpon>FrmMaterial.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="My Project\FrmPersonal.resx">
+      <DependentUpon>FrmPersonal.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="My Project\FrmPrestamo.resx">
+      <DependentUpon>FrmPrestamo.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="My Project\FrmSalidas.resx">
+      <DependentUpon>FrmSalidas.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="My Project\FrmSolicitud.resx">
+      <DependentUpon>FrmSolicitud.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="My Project\FrmUsuario.resx">
+      <DependentUpon>FrmUsuario.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="My Project\Resources.resx">
+      <Generator>VbMyResourcesResXFileCodeGenerator</Generator>
+      <CustomToolNamespace>My.Resources</CustomToolNamespace>
+      <SubType>Designer</SubType>
+      <LastGenOutput>Resources.Designer.vb</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Procesos\Devoluciones\FrmBuscarPrestamoParaDevoluciones.resx">
+      <DependentUpon>FrmBuscarPrestamoParaDevoluciones.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Procesos\Prestamos\FrmBuscarMaterialParaPrestamo.resx">
+      <DependentUpon>FrmBuscarMaterialParaPrestamo.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Procesos\Prestamos\FrmBuscarPersonalParaPrestamo.resx">
+      <DependentUpon>FrmBuscarPersonalParaPrestamo.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Procesos\Prestamos\FrmBuscarSolicitudParaPrestamo.resx">
+      <DependentUpon>FrmBuscarSolicitudParaPrestamo.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Procesos\Salidas\FrmBuscarMaterialParaSalida.resx">
+      <DependentUpon>FrmBuscarMaterialParaSalida.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Procesos\Salidas\FrmBuscarPersonalParaSalida.resx">
+      <DependentUpon>FrmBuscarPersonalParaSalida.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Procesos\Salidas\FrmBuscarSolicitudParaSalida.resx">
+      <DependentUpon>FrmBuscarSolicitudParaSalida.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Procesos\Solicitud\FrmBuscarUsuarioParaSolicutud1.resx">
+      <DependentUpon>FrmBuscarUsuarioParaSolicutud1.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reportes\CrDevolucionesrpt.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>CrDevolucionesrpt.vb</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reportes\CrMateriales.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>CrMateriales.vb</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reportes\CrSalidas.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>CrSalidas.vb</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reportes\FrmReporteListado.resx">
+      <DependentUpon>FrmReporteListado.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reportes\FrmReportes.resx">
+      <DependentUpon>FrmReportes.vb</DependentUpon>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="BD_Almacén2025DataSet.xsc">
+      <DependentUpon>BD_Almacén2025DataSet.xsd</DependentUpon>
+    </None>
+    <None Include="BD_Almacén2025DataSet.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>BD_Almacén2025DataSet.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="BD_Almacén2025DataSet.xss">
+      <DependentUpon>BD_Almacén2025DataSet.xsd</DependentUpon>
+    </None>
+    <None Include="BD_Almacén2025DataSet1.xsc">
+      <DependentUpon>BD_Almacén2025DataSet1.xsd</DependentUpon>
+    </None>
+    <None Include="BD_Almacén2025DataSet1.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>BD_Almacén2025DataSet1.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="BD_Almacén2025DataSet1.xss">
+      <DependentUpon>BD_Almacén2025DataSet1.xsd</DependentUpon>
+    </None>
+    <None Include="My Project\Application.myapp">
+      <Generator>MyApplicationCodeGenerator</Generator>
+    </None>
+    <None Include="My Project\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <CustomToolNamespace>My</CustomToolNamespace>
+      <LastGenOutput>Settings.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Adobe Express - file.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Adobe Express - file1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include=".NETFramework,Version=v4.7.2">
+      <Visible>False</Visible>
+      <ProductName>Microsoft .NET Framework 4.7.2 %28x86 y x64%29</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="CRUD\Mantenimiento\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Service Include="{C0C07587-41A7-46C8-8FBD-3F9C8EBE2DDC}" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
+</Project>
